@@ -64,11 +64,11 @@ function draw() {
 // 	}
 // }
 
-// function keyPressed() {
-// 	if (keyCode === UP_ARROW) {
-// 		Matter.Body.applyForce(bob1,bob1.position,{x:-50,y:-45});
-// 	}
-// }
+ function keyPressed() {
+   if (keyCode === UP_ARROW) {
+	Matter.Body.applyForce(bob1,bob1.position,{x:-50,y:-45});
+ }
+}
 
 // function keyPressed() {
 // 	if (keyCode === UP_ARROW) {
